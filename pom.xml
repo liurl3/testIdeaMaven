@@ -35,4 +35,11 @@
     </plugins>
     <finalName>testFirstMaven</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>snapshots</id>
+      <name>Digiwes Nexus</name>
+      <url>http://10.1.203.161:8081/content/repositories/active-baas</url>
+    </repository>
+  </distributionManagement>
 </project>
