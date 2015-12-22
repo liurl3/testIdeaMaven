@@ -3,7 +3,7 @@
   <groupId>com.asiainfo.baas</groupId>
   <artifactId>testFirstMaven</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <name>testFirstMaven Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -35,4 +35,11 @@
     </plugins>
     <finalName>testFirstMaven</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>snapshots</id>
+      <name>Digiwes Nexus</name>
+      <url>http://10.1.203.161:8081/content/repositories/active-baas</url>
+    </repository>
+  </distributionManagement>
 </project>
