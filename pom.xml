@@ -3,7 +3,7 @@
   <groupId>com.asiainfo.baas</groupId>
   <artifactId>testFirstMaven</artifactId>
   <packaging>war</packaging>
-  <version>1.2</version>
+  <version>0.1</version>
   <name>testFirstMaven Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -11,7 +11,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
@@ -37,9 +36,14 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>snapshots</id>
-      <name>Digiwes Nexus</name>
-      <url>http://10.1.203.161:8081/content/repositories/active-baas</url>
+      <id>digiwes-release</id>
+      <name>Digiwes Releases</name>
+      <url>http://10.1.203.161:8081/content/repositories/digiwes-release</url>
     </repository>
+    <snapshotRepository>
+      <id>digiwes-snapshot</id>
+      <name>Digiwes Snapshots</name>
+      <url>http://10.1.203.161:8081/content/repositories/digiwes-snapshot</url>
+    </snapshotRepository>
   </distributionManagement>
 </project>
