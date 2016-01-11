@@ -20,13 +20,11 @@
 </div>
 
 <div>
-<<<<<<< HEAD
     added by dongwh
 </div>
 
-=======
+<div>
     added by dongwh   conflict content
 </div>
->>>>>>> refs/heads/feature/featuretest
 </body>
 </html>
